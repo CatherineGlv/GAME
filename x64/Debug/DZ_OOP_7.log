@@ -1,0 +1,9 @@
+﻿  main.cpp
+D:\DZ\DZ_OOP_7\DZ_OOP_7\Card.h(15,16): error C2143: синтаксическая ошибка: отсутствие ";" перед "&"
+D:\DZ\DZ_OOP_7\DZ_OOP_7\Card.h(15,16): error C2433: ostream: "friend" не разрешается для объявлений данных
+D:\DZ\DZ_OOP_7\DZ_OOP_7\Card.h(15,16): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+D:\DZ\DZ_OOP_7\DZ_OOP_7\Card.h(15,60): error C2238: непредвиденные лексемы перед ";"
+D:\DZ\DZ_OOP_7\DZ_OOP_7\Card.h(26,38): error C2511: Card::Card(Card::rank,Card::suit,bool): перегруженная функция-член не найдена в "Card"
+D:\DZ\DZ_OOP_7\DZ_OOP_7\Card.h(6): message : см. объявление "Card"
+D:\DZ\DZ_OOP_7\DZ_OOP_7\Card.h(26,48): error C2612: недопустимый завершающий "." в списке инициализации членов и базовых классов
+D:\DZ\DZ_OOP_7\DZ_OOP_7\main.cpp(50,1): fatal error C1004: непредвиденное обнаружение конца файла
