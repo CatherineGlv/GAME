@@ -1,3 +1,4 @@
+// начало игры и ошибки...
 #include <iostream>
 #include <string>
 #include <vector>
@@ -31,17 +32,17 @@ int main()
 	string name;
 	for (int i = 0; i < numPlayers; ++i)
 	{
-		cout << "Enter �layer name: ";
+		cout << "Enter �layer name: ";
 		cin >> name;
 		names.push_back(name);
 	}
 	cout << endl;
 
 	Game aGame(names);
-	char again = '�';
+	char again = '�';
 	while (again != 'n' && again != 'N')
 	{
-		aGame.Pl��();
+		aGame.Pl��();
 		cout << "\nDo you want to play again? (Y/N): ";
 		cin >> again;
 	}
